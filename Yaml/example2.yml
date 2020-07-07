@@ -1,0 +1,35 @@
+---
+- name: New user has been created.
+  hosts: web
+  become: true
+  vars:
+    username:
+      test:
+        uname: test
+        description: Test user account
+        
+  tasks:
+    - name: Load vars from encrytped file.
+      include_vars:
+        file: secret
+
+    - name: Displat the encrypted var.
+      debug:
+        msg: "{{ secret }}"
+
+    - name: User gets created.
+      user:
+        name: "{{ username['test']['uname'] }}"
+        comment: "{{ username['test']['description'] }}"
+        state: present
+~                                                                                                                                                                                                                                                                                 
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+~                                                                                                                                            
+"example.yml" 17L, 341C                                                                                                    16,9          All

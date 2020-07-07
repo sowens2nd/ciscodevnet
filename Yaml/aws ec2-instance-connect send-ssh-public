@@ -1,0 +1,6 @@
+aws ec2-instance-connect send-ssh-public-key     --instance-id i-0adb30c090fbfe680     --instance-os-user ec2-user     --availability-zone us-east-1a     --ssh-public-key "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDMEKKDk5839qEdYu2zolnXAdWkemsJ9jIgwqxsW7wQnfIOHqQKGbthxrR0TbrQRm+opaZuUFEz2OVjFSIJnDjQEsPlFvzA3Jkc65YluPh7E4pdvxA5t5HSuDY5damChOJ9HwUlbwmpMq+L1D8Ur0Yt1lxSqiX/TnKdXJkugQ5IKzadCtaXG60Qq14ekkkxFogyFp4FVUGmoXb4ydQQ2egDrGd0r5NziW5BwWXi8BxrfFLSwKUKgwz7f+P4HYz1K97Di+HzrnKr3Cnc5dTk8L7tqTU6xzUBJFdjKUbWY0sFaIFotixtYhKlufFb7lL9AsMrz1GG9TXDa9NfqppmDHAEzrHaIK54DxrYoQ9uEqHEGpL8x5Ccsil8CBEtnE2rFHV07o8l68UXTMrMzUu7pYRXkf7Ro3vR4XoOlhaubMCm9sXZ4o5VHHY5MdR2h4rOEuJttEDfd4K1Dgb3L2WKmPoeoI/yDAvbSRm+DnUORYNmOEP+mlXdWpfc/MQtp9u3THU= sowens@sammies-Air"
+
+
+
+
+i-063e6a0e2f7870e87",    "i-0a55c81bd12e18d53",    "i-0ddef2a5e93cdb310",    "i-0adb30c090fbfe680"

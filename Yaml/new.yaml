@@ -1,0 +1,10 @@
+# Yaml Ain't Mark Up Language
+
+name: "mike"
+occupation: "programmer"
+age: 23
+gpa: 3.5
+fav_num: 1e+10
+male: true
+birthday: 1994-02-06
+flaws: null
